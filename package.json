@@ -1,0 +1,16 @@
+{
+  "name": "ts-types",
+  "module": "index.ts",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./qwebchannel": "./src/qwebchannel.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
